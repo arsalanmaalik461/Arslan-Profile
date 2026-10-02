@@ -1,1 +1,146 @@
-PHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9ImRvY3MvYXNzZXRzL2Jhbm5lci5zdmciIGFsdD0iQXJzbGFuIFByb2ZpbGUgQmFubmVyIiB3aWR0aD0iMTAwJSI+CjwvcD4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1BsYXRmb3JtLUdpdEh1Yl9Qcm9maWxlLTE4MTcxNz9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289Z2l0aHViJmxvZ29Db2xvcj13aGl0ZSIgYWx0PSJHaXRIdWIgUHJvZmlsZSI+CiAgPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvRGV2ZWxvcGVyLUFyc2xhbl9NYWxpay02RDI4RDk/c3R5bGU9Zm9yLXRoZS1iYWRnZSIgYWx0PSJBcnNsYW4gTWFsaWsiPgogIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0FuZHJvaWQtRmx1dHRlci0wMjU2OUI/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPWZsdXR0ZXImbG9nb0NvbG9yPXdoaXRlIiBhbHQ9IkZsdXR0ZXIiPgogIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1dlYi1MYXJhdmVsLUZGMkQyMD9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289bGFyYXZlbCZsb2dvQ29sb3I9d2hpdGUiIGFsdD0iTGFyYXZlbCI+CiAgPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvUEhQLTc3N0JCND9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289cGhwJmxvZ29Db2xvcj13aGl0ZSIgYWx0PSJQSFAiPgogIDxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1B5dGhvbi0zNzc2QUI/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPXB5dGhvbiZsb2dvQ29sb3I9d2hpdGUiIGFsdD0iUHl0aG9uIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9KYXZhU2NyaXB0LUY3REYxRT9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289amF2YXNjcmlwdCZsb2dvQ29sb3I9YmxhY2siIGFsdD0iSmF2YVNjcmlwdCI+CiAgPGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQmxvY2tjaGFpbi1Tb2xpZGl0eS0zQzNDM0Q/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPXNvbGlkaXR5JmxvZ29Db2xvcj13aGl0ZSIgYWx0PSJCbG9ja2NoYWluIj4KPC9wPgoKPiAqKkRldmVsb3BlZCBieSBbQXJzbGFuIE1hbGlrXShodHRwczovL2dpdGh1Yi5jb20vYXJzYWxhbm1hYWxpazQ2MSkqKgo+IPCfk7EgV2hhdHNBcHA6IFsrOTIgMzAwIDg5ODc0NDhdKGh0dHBzOi8vd2EubWUvOTIzMDA4OTg3NDQ4KSDCtyDwn4yQIFdlYnNpdGU6IFthcnNsYW5tYWxpay50ZWNoXShodHRwczovL2Fyc2xhbm1hbGlrLnRlY2gpCgotLS0KCiMjIPCfjJ8gRXhlY3V0aXZlIE92ZXJ2aWV3CgoqKkFyc2xhbi1Qcm9maWxlKiogaXMgdGhlIHBlcnNvbmFsIEdpdEh1YiBwcm9maWxlIHJlcG9zaXRvcnkgb2YgQXJzbGFuIE1hbGlrLCBhIGRldmVsb3BlciBmcm9tIFBha2lzdGFuIHdvcmtpbmcgYWNyb3NzIEFuZHJvaWQgYW5kIGlPUyBhcHBzLCB3ZWJzaXRlcywgYW5kIGJsb2NrY2hhaW4gcHJvamVjdHMuIFRoZSByZXBvc2l0b3J5IGhvc3RzIHRoZSBHaXRIdWIgcHJvZmlsZSBSRUFETUUg4oCUIHRoZSBsYW5kaW5nIHBhZ2UgdmlzaXRvcnMgc2VlIG9uIHRoZSBwcm9maWxlIOKAlCBjb3ZlcmluZyB0aGUgZGV2ZWxvcGVyJ3MgY3VycmVudCBmb2N1cyBhcmVhcywgZnJlZWxhbmNlIHNlcnZpY2VzIChidWcgZml4aW5nLCByZWFkeW1hZGUgYW5kIGN1c3RvbSBhcHBsaWNhdGlvbnMgYW5kIHdlYnNpdGVzKSwgY29udGFjdCBjaGFubmVscywgYSB0ZWNobm9sb2d5IHN0YWNrIGljb24gd2FsbCwgYW5kIGxpdmUgcHJvZmlsZSBzdGF0aXN0aWNzIHdpZGdldHMgc3VjaCBhcyBsYW5ndWFnZSBicmVha2Rvd25zLCBjb250cmlidXRpb24gc3RyZWFrcywgYW5kIHRyb3BoeSBjYXJkcy4KClRoaXMgcmVwb3NpdG9yeSBpcyBhIGxpdmluZyBwb3J0Zm9saW8gYXJ0aWZhY3Q6IGl0IGNvbnRhaW5zIHRoZSBwcm9maWxlIFJFQURNRSBpdHNlbGYgcGx1cyBDSSBjb25maWd1cmF0aW9uIHVuZGVyIGAuZ2l0aHViL3dvcmtmbG93cy9gLiBJdCBpcyBub3QgYW4gYXBwbGljYXRpb24gY29kZWJhc2UsIHNvIHRoZXJlIGlzIG5vIGJ1aWxkIHN0ZXAsIGRlcGVuZGVuY3kgbWFuaWZlc3QsIG9yIHJ1bnRpbWUgdG8gaW5zdGFsbCDigJQgY3VzdG9taXppbmcgaXQgaXMgYSBtYXR0ZXIgb2YgZWRpdGluZyBNYXJrZG93biBhbmQgcHVzaGluZy4gRXZlcnl0aGluZyBoZXJlIGlzIHN0YXRpYyBjb250ZW50IGRlc2lnbmVkIHRvIHJlbmRlciBvbiBnaXRodWIuY29tLCBhbmQgaXQgZm9sbG93cyB0aGUgc2FtZSBydWxlIGFzIGV2ZXJ5IG90aGVyIHJlcG9zaXRvcnkgZG9jdW1lbnRlZCB1bmRlciB0aGUgQXJzbGFuIE1hbGlrIGJyYW5kOiBFbmdsaXNoLW9ubHkgY29udGVudCwgaG9uZXN0IGNsYWltcyBncm91bmRlZCBpbiB3aGF0IHRoZSByZXBvc2l0b3J5IGFjdHVhbGx5IGNvbnRhaW5zLCBhbmQgY3VycmVudCBicmFuZGluZyAoYmFubmVyLCBXaGF0c0FwcCBjb250YWN0LCBhcnNsYW5tYWxpay50ZWNoIGxpbmspIGF0IHRoZSB0b3AuCgotLS0KCiMjIPCfk5EgVGFibGUgb2YgQ29udGVudHMKCi0gW+KcqCBLZXkgRmVhdHVyZXMgJiBIaWdobGlnaHRzXSgjLWtleS1mZWF0dXJlcy0taGlnaGxpZ2h0cykKLSBb8J+Wpe+4jyBGZWF0dXJlIFNob3djYXNlXSgj77iPLWZlYXR1cmUtc2hvd2Nhc2UpCi0gW/Cfj5fvuI8gU3lzdGVtIEFyY2hpdGVjdHVyZV0oI++4jy1zeXN0ZW0tYXJjaGl0ZWN0dXJlKQotIFvwn5qAIFF1aWNrc3RhcnQgJiBJbnN0YWxsYXRpb24gR3VpZGVdKCMtcXVpY2tzdGFydC0taW5zdGFsbGF0aW9uLWd1aWRlKQotIFvwn5OCIFByb2plY3QgU3RydWN0dXJlXSgjLXByb2plY3Qtc3RydWN0dXJlKQotIFvwn5uh77iPIFNlY3VyaXR5ICYgTm90ZXNdKCPvuI8tc2VjdXJpdHktLW5vdGVzKQoKLS0tCgojIyDinKggS2V5IEZlYXR1cmVzICYgSGlnaGxpZ2h0cwoKfCBGZWF0dXJlIHwgRGVzY3JpcHRpb24gfAp8IDotLS0gfCA6LS0tIHwKfCBCcmFuZGVkIHByb2ZpbGUgYmFubmVyIHwgQ3VzdG9tIGBkb2NzL2Fzc2V0cy9iYW5uZXIuc3ZnYCBoZWFkZXIgd2l0aCB0aGUgZGV2ZWxvcGVyIG5hbWUgYW5kIGJyYW5kaW5nIHwKfCBBYm91dCAmIGZvY3VzIHNlY3Rpb24gfCBDdXJyZW50IHdvcmsgKGJsb2NrY2hhaW4gdG9rZW5zKSwgZnJlZWxhbmNlIHNlcnZpY2VzIChidWcgZml4aW5nLCByZWFkeW1hZGUvY3VzdG9tIGFwcHMgJiB3ZWJzaXRlcykgfAp8IFRlY2ggc3RhY2sgaWNvbiB3YWxsIHwgSWNvbnMgZm9yIHRoZSBsYW5ndWFnZXMgYW5kIGZyYW1ld29ya3MgdGhlIGRldmVsb3BlciB3b3JrcyB3aXRoIChBbmRyb2lkLCBGbHV0dGVyLCBLb3RsaW4sIExhcmF2ZWwsIFBIUCwgUHl0aG9uLCBOb2RlLmpzLCBSZWFjdCwgZGF0YWJhc2VzLCBhbmQgbW9yZSkgfAp8IExpdmUgR2l0SHViIHN0YXRzIHdpZGdldHMgfCBUb3AtbGFuZ3VhZ2VzIGNhcmQsIGNvbnRyaWJ1dGlvbiBzdHJlYWsgY2FyZCwgYW5kIHByb2ZpbGUgdHJvcGhpZXMgcmVuZGVyZWQgZnJvbSBwdWJsaWMgR2l0SHViIGRhdGEgfAp8IFNvY2lhbCAmIGNvbnRhY3QgbGlua3MgfCBUd2l0dGVyL1gsIExpbmtlZEluLCBGYWNlYm9vaywgSW5zdGFncmFtLCBZb3VUdWJlLCBlbWFpbCwgYW5kIFdoYXRzQXBwICgrOTIgMzAwIDg5ODc0NDgpIHwKfCBDSSB3b3JrZmxvd3MgfCBHaXRIdWIgQWN0aW9ucyBjb25maWd1cmF0aW9uIHVuZGVyIGAuZ2l0aHViL3dvcmtmbG93cy9gIHwKCi0tLQoKIyMg8J+Wpe+4jyBGZWF0dXJlIFNob3djYXNlCgojIyMgMS4gR2l0SHViIFByb2ZpbGUgUkVBRE1FCgo+IEEgc2luZ2xlIE1hcmtkb3duIGZpbGUgdGhhdCByZW5kZXJzIGFzIHRoZSBkZXZlbG9wZXIncyBwdWJsaWMgcHJvZmlsZSBwYWdlIG9uIEdpdEh1Yi4KCi0gQnJhbmRlZCBiYW5uZXIsIGhlYWRsaW5lLCBhbmQgYmlvIGludHJvZHVjaW5nIEFyc2xhbiBNYWxpayBhbmQgaGlzIHNlcnZpY2UgYXJlYXMKLSAiQ3VycmVudGx5IHdvcmtpbmcgb24iLCAiTG9va2luZyBmb3IgbmV3IHByb2plY3RzIiwgYW5kIGNvbnRhY3QgbGluZXMgZm9yIGZyZWVsYW5jZSB3b3JrCi0gVGVjaC1zdGFjayBpY29uIHdhbGwgYnVpbHQgd2l0aCBkZXZpY29uIC8gdmVjdG9ybG9nbyBhc3NldHMKLSBMaXZlIHN0YXRpc3RpY3M6IHRvcCBsYW5ndWFnZXMsIHN0cmVhayBzdGF0cywgYW5kIHByb2ZpbGUgdHJvcGhpZXMKCiMjIyAyLiBDSSBXb3JrZmxvd3MKCj4gQXV0b21hdGlvbiBjb25maWd1cmF0aW9uIGZvciB0aGlzIHJlcG9zaXRvcnksIHN0b3JlZCBpbiBgLmdpdGh1Yi93b3JrZmxvd3MvYC4KCi0gS2VlcHMgcmVwb3NpdG9yeSBhdXRvbWF0aW9uIChpZiBjb25maWd1cmVkKSB2ZXJzaW9uLWNvbnRyb2xsZWQgYWxvbmdzaWRlIHRoZSBwcm9maWxlIGNvbnRlbnQKLSBTdGFuZGFyZCBHaXRIdWIgQWN0aW9ucyBZQU1MIGxheW91dCDigJQgaW5zcGVjdCBgd29ya2Zsb3dzL2AgdG8gc2VlIGV4YWN0bHkgd2hhdCBydW5zCgotLS0KCiMjIPCfj5fvuI8gU3lzdGVtIEFyY2hpdGVjdHVyZQoKYGBgbWVybWFpZApncmFwaCBURAogICAgQVtBcnNsYW4tUHJvZmlsZSBSZXBvc2l0b3J5XSAtLT4gQltSRUFETUUubWQ8YnIvPlByb2ZpbGUgcGFnZSBzb3VyY2VdCiAgICBBIC0tPiBDW2RvY3MvYXNzZXRzL2Jhbm5lci5zdmc8YnIvPkJyYW5kZWQgYmFubmVyXQogICAgQSAtLT4gRFsuZ2l0aHViL3dvcmtmbG93czxici8+Q0kgYXV0b21hdGlvbl0KICAgIEIgLS0+IEVbU3RhdHMgd2lkZ2V0czxici8+Z2l0aHViLXJlYWRtZS1zdGF0cywgc3RyZWFrLXN0YXRzLCB0cm9waGllc10KICAgIEIgLS0+IEZbVGVjaCBzdGFjayBpY29uIHdhbGw8YnIvPmRldmljb24gLyB2ZWN0b3Jsb2dvXQogICAgQiAtLT4gR1tTb2NpYWwgJiBjb250YWN0IGxpbmtzPGJyLz5XaGF0c0FwcCwgZW1haWwsIHNvY2lhbHNdCiAgICBFIC0tPiBIW1JlbmRlcmVkIHByb2ZpbGUgcGFnZTxici8+Z2l0aHViLmNvbS9hcnNhbGFubWFhbGlrNDYxXQpgYGAKCi0tLQoKIyMg8J+agCBRdWlja3N0YXJ0ICYgSW5zdGFsbGF0aW9uIEd1aWRlCgpUaGlzIGlzIGEgc3RhdGljIHByb2ZpbGUgcmVwb3NpdG9yeSDigJQgdGhlcmUgaXMgbm90aGluZyB0byBidWlsZCBvciBpbnN0YWxsLiBUbyBtYWtlIGl0IHlvdXIgb3duOgoKIyMjIFByZXJlcXVpc2l0ZXMKCi0gQSBHaXRIdWIgYWNjb3VudAotIEdpdCBpbnN0YWxsZWQgbG9jYWxseQoKIyMjIFN0ZXAtYnktU3RlcCBJbnN0YWxsYXRpb24KCmBgYGJhc2gKIyAxLiBDbG9uZSB0aGUgcmVwb3NpdG9yeQpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL2Fyc2FsYW5tYWFsaWs0NjEvQXJzbGFuLVByb2ZpbGUuZ2l0CmNkIEFyc2xhbi1Qcm9maWxlCgojIDIuIEVkaXQgdGhlIHByb2ZpbGUgY29udGVudAojICAgIE9wZW4gUkVBRE1FLm1kIGluIGFueSBlZGl0b3IgYW5kIHJlcGxhY2UgdGhlIG5hbWUsIGJpbywKIyAgICBzdGFjayBpY29ucywgYW5kIHNvY2lhbCBsaW5rcyB3aXRoIHlvdXIgb3duLgoKIyAzLiBSZXBsYWNlIHRoZSBiYW5uZXIgKG9wdGlvbmFsKQojICAgIEVkaXQgZG9jcy9hc3NldHMvYmFubmVyLnN2ZyB0byBtYXRjaCB5b3VyIGJyYW5kaW5nLgoKIyA0LiBDb21taXQgYW5kIHB1c2gg4oCUIEdpdEh1YiByZW5kZXJzIFJFQURNRS5tZCBhdXRvbWF0aWNhbGx5CmdpdCBhZGQgLUEKZ2l0IGNvbW1pdCAtbSAiZG9jczogdXBkYXRlIHByb2ZpbGUgUkVBRE1FIgpnaXQgcHVzaCBvcmlnaW4gbWFpbgpgYGAKCj4gTm90ZTogR2l0SHViIG9ubHkgc2hvd3MgYSByZXBvc2l0b3J5J3MgUkVBRE1FIG9uIHRoZSBwcm9maWxlIHBhZ2Ugd2hlbiB0aGUgcmVwb3NpdG9yeSBuYW1lIG1hdGNoZXMgeW91ciB1c2VybmFtZS4gRm9yIG90aGVyIHJlcG9zaXRvcmllcywgdGhlIFJFQURNRSBzaW1wbHkgcmVuZGVycyBvbiB0aGUgcmVwb3NpdG9yeSdzIG1haW4gcGFnZS4KCi0tLQoKIyMg8J+TgiBQcm9qZWN0IFN0cnVjdHVyZQoKYGBgCkFyc2xhbi1Qcm9maWxlLwrilJzilIDilIAgUkVBRE1FLm1kICAgICAgICAgICAgICAgICAjIFByb2ZpbGUgcGFnZSBzb3VyY2UgKHRoaXMgZG9jdW1lbnQpCuKUnOKUgOKUgCBkb2NzLwrilIIgICDilJTilIDilIAgYXNzZXRzLwrilIIgICAgICAg4pSU4pSA4pSAIGJhbm5lci5zdmcgICAgICAgICMgQnJhbmRlZCBiYW5uZXIgaW1hZ2Ugc2hvd24gYXQgdGhlIHRvcArilJTilIDilIAgLmdpdGh1Yi8KICAgIOKUlOKUgOKUgCB3b3JrZmxvd3MvICAgICAgICAgICAgIyBHaXRIdWIgQWN0aW9ucyBDSSBjb25maWd1cmF0aW9uCmBgYAoKLS0tCgojIyDwn5uh77iPIFNlY3VyaXR5ICYgTm90ZXMKCi0gVGhpcyByZXBvc2l0b3J5IGNvbnRhaW5zICoqbm8gYXBwbGljYXRpb24gY29kZSwgY3JlZGVudGlhbHMsIHRva2Vucywgb3Igc2VjcmV0cyoqIOKAlCBpdCBpcyBzdGF0aWMgTWFya2Rvd24sIFNWRywgYW5kIHdvcmtmbG93IFlBTUwgb25seS4KLSBQcm9maWxlIHN0YXRpc3RpY3Mgd2lkZ2V0cyAoZ2l0aHViLXJlYWRtZS1zdGF0cywgc3RyZWFrLXN0YXRzLCB0cm9waGllcykgYXJlIHJlbmRlcmVkIGJ5ICoqdGhpcmQtcGFydHkgc2VydmljZXMqKiBmcm9tIHB1YmxpYyBHaXRIdWIgZGF0YTsgaWYgYW55IHdpZGdldCBpcyB1bmF2YWlsYWJsZSwgdGhlIHN1cnJvdW5kaW5nIGNvbnRlbnQgc3RpbGwgcmVuZGVycy4KLSBEbyBub3QgcGFzdGUgcmVhbCBjcmVkZW50aWFscyBpbnRvIGBSRUFETUUubWRgIG9yIHdvcmtmbG93IGZpbGVzIOKAlCBwdWJsaWMgcmVwb3NpdG9yaWVzIGFyZSB2aXNpYmxlIHRvIGV2ZXJ5b25lLgotIEFsbCBjbGFpbXMgaW4gdGhpcyBkb2N1bWVudCBkZXNjcmliZSB0aGUgcmVwb3NpdG9yeSdzIGFjdHVhbCBjb250ZW50cyBhcyBvZiB0aGlzIHdyaXRpbmcuCgotLS0KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxzdWI+RGV2ZWxvcGVkIHdpdGgg4p2k77iPIGJ5IDxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9hcnNhbGFubWFhbGlrNDYxIj5BcnNsYW4gTWFsaWs8L2E+IMK3IPCfk7EgPGEgaHJlZj0iaHR0cHM6Ly93YS5tZS85MjMwMDg5ODc0NDgiPldoYXRzQXBwOiArOTIgMzAwIDg5ODc0NDg8L2E+IMK3IPCfjJAgPGEgaHJlZj0iaHR0cHM6Ly9hcnNsYW5tYWxpay50ZWNoIj5hcnNsYW5tYWxpay50ZWNoPC9hPjwvc3ViPgo8L3A+Cg==
+<p align="center">
+  <img src="docs/assets/banner.svg" alt="Arslan Profile Banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile">
+  <img src="https://img.shields.io/badge/Developer-Arslan_Malik-6D28D9?style=for-the-badge" alt="Arslan Malik">
+  <img src="https://img.shields.io/badge/Android-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/Web-Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Blockchain-Solidity-3C3C3D?style=for-the-badge&logo=solidity&logoColor=white" alt="Blockchain">
+</p>
+
+> **Developed by [Arslan Malik](https://github.com/arsalanmaalik461)**
+> 📱 WhatsApp: [+92 300 8987448](https://wa.me/923008987448) · 🌐 Website: [arslanmalik.tech](https://arslanmalik.tech)
+
+---
+
+## 🌟 Executive Overview
+
+**Arslan-Profile** is the personal GitHub profile repository of Arslan Malik, a developer from Pakistan working across Android and iOS apps, websites, and blockchain projects. The repository hosts the GitHub profile README — the landing page visitors see on the profile — covering the developer's current focus areas, freelance services (bug fixing, readymade and custom applications and websites), contact channels, a technology stack icon wall, and live profile statistics widgets such as language breakdowns, contribution streaks, and trophy cards.
+
+This repository is a living portfolio artifact: it contains the profile README itself plus CI configuration under `.github/workflows/`. It is not an application codebase, so there is no build step, dependency manifest, or runtime to install — customizing it is a matter of editing Markdown and pushing. Everything here is static content designed to render on github.com, and it follows the same rule as every other repository documented under the Arslan Malik brand: English-only content, honest claims grounded in what the repository actually contains, and current branding (banner, WhatsApp contact, arslanmalik.tech link) at the top.
+
+---
+
+## 📑 Table of Contents
+
+- [✨ Key Features & Highlights](#-key-features--highlights)
+- [🖥️ Feature Showcase](#️-feature-showcase)
+- [🏗️ System Architecture](#️-system-architecture)
+- [🚀 Quickstart & Installation Guide](#-quickstart--installation-guide)
+- [📂 Project Structure](#-project-structure)
+- [🛡️ Security & Notes](#️-security--notes)
+
+---
+
+## ✨ Key Features & Highlights
+
+| Feature | Description |
+| :--- | :--- |
+| Branded profile banner | Custom `docs/assets/banner.svg` header with the developer name and branding |
+| About & focus section | Current work (blockchain tokens), freelance services (bug fixing, readymade/custom apps & websites) |
+| Tech stack icon wall | Icons for the languages and frameworks the developer works with (Android, Flutter, Kotlin, Laravel, PHP, Python, Node.js, React, databases, and more) |
+| Live GitHub stats widgets | Top-languages card, contribution streak card, and profile trophies rendered from public GitHub data |
+| Social & contact links | Twitter/X, LinkedIn, Facebook, Instagram, YouTube, email, and WhatsApp (+92 300 8987448) |
+| CI workflows | GitHub Actions configuration under `.github/workflows/` |
+
+---
+
+## 🖥️ Feature Showcase
+
+### 1. GitHub Profile README
+
+> A single Markdown file that renders as the developer's public profile page on GitHub.
+
+- Branded banner, headline, and bio introducing Arslan Malik and his service areas
+- "Currently working on", "Looking for new projects", and contact lines for freelance work
+- Tech-stack icon wall built with devicon / vectorlogo assets
+- Live statistics: top languages, streak stats, and profile trophies
+
+### 2. CI Workflows
+
+> Automation configuration for this repository, stored in `.github/workflows/`.
+
+- Keeps repository automation (if configured) version-controlled alongside the profile content
+- Standard GitHub Actions YAML layout — inspect `workflows/` to see exactly what runs
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+graph TD
+    A[Arslan-Profile Repository] --> B[README.md<br/>Profile page source]
+    A --> C[docs/assets/banner.svg<br/>Branded banner]
+    A --> D[.github/workflows<br/>CI automation]
+    B --> E[Stats widgets<br/>github-readme-stats, streak-stats, trophies]
+    B --> F[Tech stack icon wall<br/>devicon / vectorlogo]
+    B --> G[Social & contact links<br/>WhatsApp, email, socials]
+    E --> H[Rendered profile page<br/>github.com/arsalanmaalik461]
+```
+
+---
+
+## 🚀 Quickstart & Installation Guide
+
+This is a static profile repository — there is nothing to build or install. To make it your own:
+
+### Prerequisites
+
+- A GitHub account
+- Git installed locally
+
+### Step-by-Step Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/arsalanmaalik461/Arslan-Profile.git
+cd Arslan-Profile
+
+# 2. Edit the profile content
+#    Open README.md in any editor and replace the name, bio,
+#    stack icons, and social links with your own.
+
+# 3. Replace the banner (optional)
+#    Edit docs/assets/banner.svg to match your branding.
+
+# 4. Commit and push — GitHub renders README.md automatically
+git add -A
+git commit -m "docs: update profile README"
+git push origin main
+```
+
+> Note: GitHub only shows a repository's README on the profile page when the repository name matches your username. For other repositories, the README simply renders on the repository's main page.
+
+---
+
+## 📂 Project Structure
+
+```
+Arslan-Profile/
+├── README.md                 # Profile page source (this document)
+├── docs/
+│   └── assets/
+│       └── banner.svg        # Branded banner image shown at the top
+└── .github/
+    └── workflows/            # GitHub Actions CI configuration
+```
+
+---
+
+## 🛡️ Security & Notes
+
+- This repository contains **no application code, credentials, tokens, or secrets** — it is static Markdown, SVG, and workflow YAML only.
+- Profile statistics widgets (github-readme-stats, streak-stats, trophies) are rendered by **third-party services** from public GitHub data; if any widget is unavailable, the surrounding content still renders.
+- Do not paste real credentials into `README.md` or workflow files — public repositories are visible to everyone.
+- All claims in this document describe the repository's actual contents as of this writing.
+
+---
+
+<p align="center">
+  <sub>Developed with ❤️ by <a href="https://github.com/arsalanmaalik461">Arslan Malik</a> · 📱 <a href="https://wa.me/923008987448">WhatsApp: +92 300 8987448</a> · 🌐 <a href="https://arslanmalik.tech">arslanmalik.tech</a></sub>
+</p>
